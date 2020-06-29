@@ -1,0 +1,9 @@
+.MemberCard {
+  text-align: center;
+}
+
+.team-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

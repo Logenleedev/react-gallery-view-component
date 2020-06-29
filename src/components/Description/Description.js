@@ -12,12 +12,7 @@ class Desciption extends Component {
     return (
       <div className="Description">
         <Paragraph ellipsis={{ rows: 2, expandable: true, symbol: 'more' }}>
-          Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant Design,
-          a design language for background applications, is refined by Ant UED Team. Ant Design, a
-          design language for background applications, is refined by Ant UED Team. Ant Design, a design
-          language for background applications, is refined by Ant UED Team. Ant Design, a design
-          language for background applications, is refined by Ant UED Team.
+          {this.props.description}
         </Paragraph>
       </div>
     );
