@@ -9,7 +9,7 @@ class JobTitle extends Component {
   render() {
     return (
       <div className="Title">
-        <Title level={3}>Software Engineer</Title>
+        <Title level={3}>{this.props.title}</Title>
       </div>
     );
   }
