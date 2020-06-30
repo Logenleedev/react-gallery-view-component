@@ -18,11 +18,10 @@ class Team extends Component {
 
      return (
           <Card
-              loading
               size="small"
               className="MemberCard"
-              style={{ width: 240 }}
-              cover={<img alt="example" src={profileImage} />}
+              style={{ width: 240}}
+              cover={<img className="profileImage" alt="example" src={profileImage} />}
           >
             <JobTitle title={title}/>
             <Description description={desciption}/>
@@ -42,5 +41,6 @@ class Team extends Component {
     );
   }
 }
+
 
 export default Team;
